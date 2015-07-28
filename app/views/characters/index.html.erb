@@ -1,0 +1,16 @@
+<%= form_tag characters_path, :method => 'get' do %>
+<p> 
+<%= text_field_tag :search, params[:search]%>
+<%= submit_tag "Search" %>
+</p>
+<% end %>
+</br>
+<img src=<%= @character.thumbnail %>>
+<ul>
+<li>name: <%= @character.name %> </li>
+<li>realm: <%= @character.realm %></li>
+<li>class: <%= @character.klass.name %> </li>
+<li>race: <%= @character.race.name %></li>
+<li>side: <%= @character.side %></li>
+
+</ul>
