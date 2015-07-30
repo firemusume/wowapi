@@ -24,6 +24,8 @@ gem 'jquery-rails'
 
 gem 'httparty'
 
+gem "haml","3.1.8"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
